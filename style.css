@@ -159,3 +159,7 @@ figure{
     margin-right: 600px;
     padding-left: 2px; 
 }
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+}
