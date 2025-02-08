@@ -1,0 +1,95 @@
+body {
+    padding-top: 8px;
+    max-width: 1200px;
+    font-size: medium;
+    background: linear-gradient(to bottom right, #f8e8a6, #ffcc66);
+    font-family: 'Oswald', 'Nunito Sans', sans-serif;
+}
+header {
+    margin-top: 25px;
+    padding: 20px;
+    text-align: center;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+th, td {
+    padding: 12px;
+    border: 2px solid #aea9a9;
+}
+
+th {
+    background-color: #ed9b1f;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #ffe5b4;
+}
+
+.menubar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 15x 0;
+    text-align: center;
+
+    z-index: 1000;
+}
+.menubar ul {
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+.menubar li {
+    list-style: none;
+}
+
+.menubar a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 12px 20px;
+    transition: color 0.3s, transform 0.2s;
+}
+
+.menubar a:hover {
+    color: #ff9900;
+    transform: scale(1.1);
+}
+img {
+    display: block;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.05) rotate(-1.25deg);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    background-color: #2e2e2e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
