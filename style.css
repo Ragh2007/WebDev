@@ -58,8 +58,10 @@ tr:nth-child(even) {
     text-align: center;
     z-index: 1000;
     flex-wrap:wrap;
+    overflow: hidden;
 }
 .menubar ul {
+    width: 100%;
     display: flex;
     gap: 20px;
     padding: 1px;
