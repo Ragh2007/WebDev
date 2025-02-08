@@ -63,8 +63,8 @@ tr:nth-child(even) {
 .menubar ul {
     width: 100%;
     display: flex;
-    gap: 10px;
-    padding: 1px;
+    gap: 5px;
+    padding: 0px;
     flex-wrap:wrap;}
 .menubar li {
     list-style: none;
