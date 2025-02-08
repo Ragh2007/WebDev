@@ -56,14 +56,13 @@ tr:nth-child(even) {
     background: rgba(0, 0, 0, 0.9);
     padding: 1vh 3vw;
     z-index: 1000;
-    flex-wrap:wrap;
+    flex-wrap:nowrap;
     overflow: hidden;
 }
 .menubar ul {
     width: auto;
     display: flex;
-    gap: 3px;
-    padding-right: 0.5rem;
+    gap: 3px;
     flex-wrap:nowrap;}
 .menubar li {
     list-style: none;
