@@ -7,7 +7,7 @@ body {
 }
 header {
     margin-top: 25px;
-    padding: 20px;
+    padding: 15px;
     text-align: center;
 }
 table {
@@ -18,10 +18,16 @@ table {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     overflow: hidden;
+    
+}
+th:hover,td:hover,footer:hover{
+    border-radius: 20px;
+    transform: scale(1.25);
+    transition: 0.5s;
 }
 th, td {
     padding: 12px;
-    border: 2px solid #aea9a9;
+    border: 2px solid #aea9a9e5;
 }
 
 th {
@@ -68,17 +74,21 @@ tr:nth-child(even) {
     transform: scale(1.1);
 }
 img {
-    display: block;
+    width: 400px;
+    transform: scale(0.7);
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease-in-out;
 }
 
 img:hover {
-    transform: scale(1.05) rotate(-1.25deg);
+
+    transform: scale(1.2) rotate(-9deg);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
-
+figcaption:hover{
+    transform: scale(1.5) rotate(-9);
+}
 footer {
     background-color: #2e2e2e;
     color: white;
@@ -88,8 +98,43 @@ footer {
     margin-top: 40px;
 }
 figure{
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+#me{
+    right: 0 ;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-repeat:no-repeat;
+    border-radius: 10px;
+    
+}
+#me .blur{
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-image: url('meal.jpeg');
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 100%; 
+    filter: blur(25px);
+    z-index: -2;
+    
+}
+.bt{
+    background: rgba(0, 0, 0, 0.114);
+    border-radius: 10px;
+    margin: 300px;
+    border: none;
+    height: 300px;
+    padding: 25px;
 }
