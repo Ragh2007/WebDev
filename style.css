@@ -52,7 +52,7 @@ tr:nth-child(even) {
     width: 100% ;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background: rgba(0, 0, 0, 0.9);
     padding: 1vh 3vw;
     z-index: 1000;
