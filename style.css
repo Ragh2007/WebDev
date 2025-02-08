@@ -59,10 +59,9 @@ tr:nth-child(even) {
     z-index: 1000;
     flex-wrap:wrap;
     overflow: hidden;
-    flex-direction: column;
 }
 .menubar ul {
-    width: 100%;
+    width: 60%;
     display: flex;
     gap: 3px;
     padding: 0px;
