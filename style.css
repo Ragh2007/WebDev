@@ -157,11 +157,11 @@ figure{
     
 }
 .logo {
-    flex-grow:2;
+    flex-grow:1;
     color: white;
     font-size: 2rem;
     font-weight: bold;
-    margin-right: 60px;
+    margin-right: 0;
     padding-left: 2px; 
 }
 main {
