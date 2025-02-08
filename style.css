@@ -62,12 +62,14 @@ tr:nth-child(even) {
 .menubar ul {
     display: flex;
     gap: 20px;
-    padding: 1px}
+    padding: 1px;
+    flex-wrap:wrap;}
 .menubar li {
     list-style: none;
 }
 
 .menubar a {
+    font-size:1rem;
     text-decoration: none;
     font-weight: bold;
     color: white;
@@ -115,7 +117,7 @@ figure{
 #me,#me1{
     position: relative;
     width: 100%;
-    height: 400px; 
+    height: auto; 
     display: flex;
     align-items: center;
     justify-content: center;
