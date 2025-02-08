@@ -55,7 +55,6 @@ tr:nth-child(even) {
     justify-content: space-between;
     background: rgba(0, 0, 0, 0.9);
     padding: 1vh 3vw;
-    text-align: center;
     z-index: 1000;
     flex-wrap:wrap;
     overflow: hidden;
