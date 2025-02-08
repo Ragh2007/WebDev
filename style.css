@@ -157,7 +157,7 @@ figure{
     
 }
 .logo {
-    flex-grow:7;
+    flex-grow:2;
     color: white;
     font-size: 2rem;
     font-weight: bold;
