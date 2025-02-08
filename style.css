@@ -76,6 +76,7 @@ tr:nth-child(even) {
     color: white;
     padding: 7px 10px;
     transition: color 0.3s, transform 0.2s;
+    white-space:nowrap;
 }
 
 .menubar a:hover {
