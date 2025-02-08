@@ -160,8 +160,7 @@ figure{
     color: white;
     font-size: 2rem;
     font-weight: bold;
-    margin: 0;
-    padding-left: 2px; 
+    padding-left: 1px; 
 }
 main {
     display: grid;
