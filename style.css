@@ -5,7 +5,7 @@ html,body{
 body {
     padding-top: 50px;
     max-width: 100%;
-    font-size: medium;
+    font-size: 1.2rem;
     background: linear-gradient(to bottom right, #f8e8a6, #ffcc66);
     font-family: 'Oswald', 'Nunito Sans', sans-serif;
 }
@@ -54,9 +54,10 @@ tr:nth-child(even) {
     align-items: center;
     justify-content: space-between;
     background: rgba(0, 0, 0, 0.9);
-    padding: 15px 30px;
+    padding: 2vh 5vw;
     text-align: center;
     z-index: 1000;
+    flex-wrap:wrap;
 }
 .menubar ul {
     display: flex;
@@ -79,6 +80,7 @@ tr:nth-child(even) {
     transform: scale(1.1);
 }
 img {
+    max-width:80vw;
     width: 400px;
     transform: scale(0.7);
     border-radius: 10px;
