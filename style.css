@@ -178,6 +178,9 @@ figure{
     white-space: nowrap;
 }
 @media (max-width: 768px) {
+    menubar {
+        margin-bottom: 10px
+    }
     body {
         padding-top: 40px;
         font-size: 16px;
