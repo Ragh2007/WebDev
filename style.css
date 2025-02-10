@@ -1,20 +1,18 @@
 html,body{
     padding: 0;
     margin: 0;
-    user-select:none;
     scrollbar-width: none;
 }
 body {
     padding-top: 50px;
     max-width: 100%;
-    font-size: 1.2rem;
+    font-size: medium;
     background: linear-gradient(to bottom right, #f8e8a6, #ffcc66);
     font-family: 'Oswald', 'Nunito Sans', sans-serif;
-    
 }
 
 header {
-    margin-top: 5px;
+    margin-top: 25px;
 
     text-align: center;
 }
@@ -29,10 +27,12 @@ table {
     overflow: hidden;
     
 }
-th:hover,td:hover,footer:hover{
+th:hover,td:hover{
+    filter: brightness(96%);
     border-radius: 20px;
-    transform: scale(1.25);
+    transform: scale(1.1);
     transition: 0.5s;
+
 }
 th, td {
     padding: 12px;
@@ -52,42 +52,36 @@ tr:nth-child(even) {
     position: fixed;
     top: 0;
     left: -30;
-    width: 100% ;
+    width: 98%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: rgba(0, 0, 0, 0.9);
-    padding: 1vh 3vw;
+    padding: 15px 30px;
+    text-align: center;
     z-index: 1000;
-    flex-wrap:wrap;
-    overflow: hidden;
 }
 .menubar ul {
-    width: auto;
     display: flex;
-    gap: 3px;
-
-    flex-wrap:nowrap;}
+    gap: 20px;
+    padding: 1px}
 .menubar li {
     list-style: none;
 }
 
 .menubar a {
-    font-size:1rem;
     text-decoration: none;
     font-weight: bold;
     color: white;
-    padding: 7px 10px;
+    padding: 12px 20px;
     transition: color 0.3s, transform 0.2s;
-    white-space:nowrap;
 }
 
 .menubar a:hover {
-    color: #ff9900;
+    color: rgb(149, 91, 4);
     transform: scale(1.1);
 }
 img {
-    max-width:80vw;
     width: 400px;
     transform: scale(0.7);
     border-radius: 10px;
@@ -163,9 +157,6 @@ figure{
     color: white;
     font-size: 2rem;
     font-weight: bold;
-    padding-left: 1px; 
-}
-main {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    margin-right: 600px;
+    padding-left: 2px; 
 }
