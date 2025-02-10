@@ -200,10 +200,13 @@ figure{
         margin-top: 110px;
     }
     main{
-        margin-top: 30px;
+        margin-top: 20px;
     }
     
     table {
         font-size: 14px;
+    }
+    .bt{
+        height: 150px
     }
 }
