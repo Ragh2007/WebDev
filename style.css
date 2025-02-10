@@ -190,15 +190,14 @@ figure{
     .menubar a {
         padding: 8px 12px;
     }
-
-    #me, #me1, #me3 {
+    .p1{
+        width: 1000px;
         height: 300px;
-        margin-top: 40px;
     }
-
-    .bt {
-        margin: 10% 5%; 
-        height: auto;
+    #me, #me1, #me3 {
+    
+        height: 300px;
+        margin-top: 110px;
     }
 
     table {
