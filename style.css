@@ -199,18 +199,11 @@ figure{
 
     .bt {
         margin: 10% 5%; 
-        height: auto;
+        height: 10px;
     }
 
     table {
         font-size: 14px;
     }
 }
-@media (hover: hover) {
-    th:hover, td:hover {
-        transform: scale(1.1);
-    }
-    img:hover {
-        transform: scale(1.2) rotate(-9deg);
-    }
-}
+
