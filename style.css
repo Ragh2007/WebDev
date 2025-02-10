@@ -51,7 +51,7 @@ tr:nth-child(even) {
 .menubar {
     position: fixed;
     top: 0;
-    left: -20;
+    left: -17;
     width: 98%;
     display: flex;
     align-items: center;
