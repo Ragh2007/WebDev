@@ -1,4 +1,5 @@
 html,body{
+    width:100%;
     padding: 0;
     margin: 0;
     scrollbar-width: none;
@@ -67,7 +68,9 @@ tr:nth-child(even) {
 .menubar ul {
     display: flex;
     gap: 20px;
-    padding: 1px}
+    padding: 1px;
+    flex-wrap: wrap;
+}
 .menubar li {
     list-style: none;
 }
@@ -107,6 +110,7 @@ footer {
     padding: 15px;
     border-radius: 20px;
     margin-top: 40px;
+    width: auto;
 }
 figure{
     color: rgb(255, 255, 255);
@@ -118,7 +122,7 @@ figure{
 }
 #me,#me1,#me3{
     position:relative;
-    width: 100%;
+    width: auto;
     height: 400px; 
     display: flex;
     align-items: center;
@@ -161,8 +165,7 @@ figure{
 .logo {
     color: white;
     font-size: 2rem;
+    width: auto;
     font-weight: bold;
-    padding-left: 2px;
-    flex-grow: 1; 
     white-space: nowrap;
 }
