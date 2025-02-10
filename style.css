@@ -64,6 +64,7 @@ tr:nth-child(even) {
     text-align: center;
     z-index: 1000;
     flex-wrap: wrap;
+    flex-grow:1;
 }
 .menubar ul {
     display: flex;
@@ -72,10 +73,12 @@ tr:nth-child(even) {
     flex-wrap: wrap;
 }
 .menubar li {
+    flex-wrap: wrap;
     list-style: none;
 }
 
 .menubar a {
+    flex-wrap: wrap;
     text-decoration: none;
     font-weight: bold;
     color: white;
@@ -96,7 +99,6 @@ img {
 }
 
 img:hover {
-
     transform: scale(1.2) rotate(-9deg);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
