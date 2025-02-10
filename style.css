@@ -19,7 +19,7 @@ header {
 }
 
 table {
-    padding-top: 10px;
+    margin-top: 10px;
     width: 100%;
     border-collapse: collapse;
     text-align: center;
@@ -53,7 +53,7 @@ tr:nth-child(even) {
 .menubar {
     position: fixed;
     top: 0;
-    left: -16;
+    left: -20;
     width: 98%;
     display: flex;
     align-items: center;
@@ -115,18 +115,17 @@ figure{
     flex-direction: column;
     z-index: 1px;
 }
-#me,#me1{
-    position: relative;
+#me,#me1,#me3{
+    position:relative;
     width: 100%;
     height: 400px; 
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
     margin-top: 80px;
 }
 
-#me .blur,#me1 .blur1{
+#me .blur,#me1 .blur1,#me3 .blur3{
     position: absolute;
     top: 0;
     left: 0;
@@ -134,7 +133,7 @@ figure{
     height: 100%; 
     background-size: cover;
     background-position: center;
-    filter: blur(15px);
+    filter: blur(5px);
     z-index: -1; }
 
 .bt{
@@ -154,6 +153,9 @@ figure{
     background-image: url('download.jpg');
  
     
+}
+#me3 .blur3{
+    background-image:url('image2.jpg');
 }
 .logo {
     color: white;
