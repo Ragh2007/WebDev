@@ -4,6 +4,9 @@ html,body{
     margin: 0;
     scrollbar-width: none;
     user-select: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 body {
     padding-top: 50px;
@@ -149,8 +152,8 @@ figure{
     margin: 25%;
     border: none;
     height: 300px;
-    padding: 25px;
-    position:static;
+    padding: 2%;
+    position:  relative;
 }
 #me .blur{
     background-image: url('meal.jpg');
