@@ -193,17 +193,16 @@ figure{
     }
 
     #me, #me1, #me3 {
-        height: 200px;
-        margin-top: 100px;
+        height: 300px;
+        margin-top: 40px;
     }
 
     .bt {
         margin: 10% 5%; 
-        height: 10px;
+        height: auto;
     }
 
     table {
         font-size: 14px;
     }
 }
-
