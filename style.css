@@ -98,7 +98,7 @@ tr:nth-child(even) {
     transform: scale(1.1);
 }
 img {
-    width: 100%;
+    max-width: 60%;
     height: auto;
     transform: scale(0.9);
     border-radius: 10px;
@@ -132,8 +132,7 @@ figure{
 }
 #me,#me1,#me3{
     position:relative;
-    width: auto;
-    height: 400px; 
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -144,21 +143,20 @@ figure{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width:100% ;
     height: 100%; 
     background-size: cover;
     background-position: center;
     filter: blur(5px);
-    z-index: -1; }
+    z-index: -1;
+}
 
 .bt{
     background: rgba(43, 2, 2, 0.114);
     border-radius: 10px;
-    margin: 25%;
     border: none;
+    width: 10%;
     height: 300px;
-    padding: 2%;
-    position:  relative;
 }
 #me .blur{
     background-image: url('meal.jpg');
@@ -200,7 +198,7 @@ figure{
     }
 
     .bt {
-        margin: 10% 5%; /* Reduce large margins */
+        margin: 10% 5%; 
         height: auto;
     }
 
