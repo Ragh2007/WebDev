@@ -214,4 +214,5 @@ figure{
     }
     img:hover {
         transform: scale(1.2) rotate(-9deg);
-  
+    }
+}
